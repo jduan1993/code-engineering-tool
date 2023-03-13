@@ -1,4 +1,4 @@
-package java.com.hsbc.cet.component;
+package com.hsbc.cet.component;
 
 public class Component4 {
 

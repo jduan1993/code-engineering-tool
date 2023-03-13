@@ -1,9 +1,9 @@
-package java.com.hsbc.cet;
+package com.hsbc.cet;
 
-import java.com.hsbc.cet.tool.Tool1;
-import java.com.hsbc.cet.tool.Tool2;
-import java.com.hsbc.cet.tool.Tool3;
-import java.com.hsbc.cet.tool.Tool4;
+import com.hsbc.cet.tool.Tool1;
+import com.hsbc.cet.tool.Tool2;
+import com.hsbc.cet.tool.Tool3;
+import com.hsbc.cet.tool.Tool4;
 
 public class Test3 {
 

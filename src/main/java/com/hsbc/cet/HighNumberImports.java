@@ -1,13 +1,16 @@
-package java.com.hsbc.cet;
+package com.hsbc.cet;
 
-import java.com.hsbc.cet.component.Component1;
-import java.com.hsbc.cet.component.Component2;
-import java.com.hsbc.cet.component.Component3;
-import java.com.hsbc.cet.component.Component4;
-import java.com.hsbc.cet.tool.Tool1;
-import java.com.hsbc.cet.tool.Tool2;
-import java.com.hsbc.cet.tool.Tool3;
-import java.com.hsbc.cet.tool.Tool4;
+import com.hsbc.cet.component.Component1;
+import com.hsbc.cet.component.Component2;
+import com.hsbc.cet.component.Component3;
+import com.hsbc.cet.component.Component4;
+import com.hsbc.cet.tool.Tool1;
+import com.hsbc.cet.tool.Tool2;
+import com.hsbc.cet.tool.Tool3;
+import com.hsbc.cet.tool.Tool4;
+
+import java.util.*;
+import java.io.*;
 
 public class HighNumberImports {
 
@@ -41,5 +44,12 @@ public class HighNumberImports {
         test3.test();
 
         System.out.println("HighNumberImports");
+    }
+
+    public static void main(String[] args) throws Exception {
+        List<String> lines = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
+        String line = null;
+        System.out.println(line);
     }
 }
